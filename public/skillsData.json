@@ -1,0 +1,57 @@
+
+[
+    {
+        "_id":1,
+        "skill_name":"CSS",
+        "image":"../../public/icons/css.png",
+        "percentage":70
+    },
+    {
+        "_id":2,
+        "skill_name":"Bootstrap",
+        "image":"../../public/icons/bootstrap.png",
+        "percentage":90
+    },
+    {
+        "_id":3,
+        "skill_name":"Tailwind CSS",
+        "image":"../../public/icons/tailwindcss.png",
+        "percentage":90
+    },
+    {
+        "_id":4,
+        "skill_name":"Javascript",
+        "image":"../../public/icons/js.png",
+        "percentage":75
+    },
+    {
+        "_id":5,
+        "skill_name":"React JS",
+        "image":"../../public/icons/react.png",
+        "percentage":88
+    },
+    {
+        "_id":6,
+        "skill_name":"Firebase",
+        "image":"../../public/icons/firebase.png",
+        "percentage":80
+    },
+    {
+        "_id":7,
+        "skill_name":"Mongodb",
+        "image":"../../public/icons/mongodb.png",
+        "percentage":70
+    },
+    {
+        "_id":8,
+        "skill_name":"Express JS",
+        "image":"../../public/icons/expressjs.png",
+        "percentage":80
+    },
+    {
+        "_id":9,
+        "skill_name":"Node JS",
+        "image":"../../public/icons/nodejs.png",
+        "percentage":70
+    }
+]
