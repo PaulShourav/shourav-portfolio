@@ -3,7 +3,7 @@ import Heading from "./Heading";
 
 const ProjectSection = ({sectionId}) => {
     return (
-        <section className="my-container mb-28" id="projectSection">
+        <section className="my-container mb-28" id="projects">
             <Heading name={"Projects"}/>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 ">
                 <div className=" h-96  bg-base-100 border-s-[3px] border-[#14A850] shadow-md ">

@@ -7,28 +7,28 @@ import Heading from "./Heading";
 const ContactSection = ({sectionId}) => {
 
     return (
-        <section className="my-container mx-auto" id="contactSection">
+        <section className="my-container mx-auto" id="contact">
             <Heading name={'Contact me'}/>
             <div className="flex flex-col lg:flex-row  mb-56">
             <motion.div initial={{x:-150,opacity:0}} whileInView={{x:0,opacity:1}} transition={{type:"tween",duration:1}} className="basis-1/2 flex justify-center items-center object-cover">
                 <Lottie animationData={communication} loop={true} style={{width:500,height:300}}/>
 
                 </motion.div>
-                <motion.div initial={{x:150,opacity:0}} whileInView={{x:0,opacity:1}} transition={{type:"tween",duration:1}} className="basis-1/2 md:flex justify-start md:justify-center">
+                <motion.div initial={{x:150,opacity:0}} whileInView={{x:0,opacity:1}} transition={{type:"tween",duration:1}} className="basis-1/2 ">
                     <div >
-                    <div className="flex items-center  border-b-2 bg-gray-100 focus-within:rounded-md border-[#14A850] w-full md:w-[450px]  focus-within:border focus-within:bg-white focus-within:shadow-md focus-within:shadow-[#14A850] mb-6">
+                    <div className="flex items-center  border-b-2 bg-gray-100 focus-within:rounded-md border-[#14A850] w-full   focus-within:border focus-within:bg-white focus-within:shadow-md focus-within:shadow-[#14A850] mb-6">
                         <span className="p-2">
                             <FaRegAddressBook />
                         </span>
                         <input type="text" placeholder="Email" className="w-full px-4  bg-gray-100 focus:outline-none focus-within:bg-white"  />
                     </div>
-                    <div className="flex items-center border-b-2 bg-gray-100  focus-within:rounded-md border-[#14A850] md:w-[450px] w-full focus-within:border focus-within:bg-white focus-within:shadow-md focus-within:shadow-[#14A850] mb-6">
+                    <div className="flex items-center border-b-2 bg-gray-100  focus-within:rounded-md border-[#14A850]  w-full focus-within:border focus-within:bg-white focus-within:shadow-md focus-within:shadow-[#14A850] mb-6">
                         <span className="p-2">
                             <FaPenToSquare />
                         </span>
                         <input type="text" placeholder="Subject" className="bg-gray-100 w-full px-4  focus:outline-none focus-within:bg-white" />
                     </div>
-                    <div className="flex items-center border-b-2 bg-gray-100  focus-within:rounded-md border-[#14A850] md:w-[450px] w-full focus-within:border focus-within:bg-white focus-within:shadow-md focus-within:shadow-[#14A850] mb-6">
+                    <div className="flex items-center border-b-2 bg-gray-100  focus-within:rounded-md border-[#14A850]  w-full focus-within:border focus-within:bg-white focus-within:shadow-md focus-within:shadow-[#14A850] mb-6">
                         <span className="p-2 flex self-start">
                             <FaRegEnvelope />
                         </span>

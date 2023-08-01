@@ -15,10 +15,10 @@ body{
     @apply outline outline-2 outline-[#14A850] shadow-lg shadow-cyan-500/50  rounded-full p-2
 }
 .nav-hover:hover{
-  @apply hover:bg-white hover:text-lg hover:px-[14px] hover:py-[15px]
+  @apply hover:bg-white hover:text-lg hover:px-[15px] hover:py-[15px]
 }
 .nav-active{
-  @apply bg-white text-lg px-[14px] py-[15px]
+  @apply bg-white text-lg px-[15px] py-[15px]
 }
 @layer utilities{
   body::-webkit-scrollbar {

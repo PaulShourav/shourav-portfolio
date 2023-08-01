@@ -5,8 +5,8 @@ import Heading from './Heading';
 
 const EducationSection = ({sectionId}) => {
     return (
-        <section className='my-container mx-auto mb-24' id='educationSection'>
-            {/* <Heading name={'Education'}/> */}
+        <section className='my-container mx-auto mb-24' id='education'>
+            <Heading name={'Education'}/>
             <VerticalTimeline lineColor='#14A850'>
                 <VerticalTimelineElement
                     iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff',marginTop:'-30px' }}

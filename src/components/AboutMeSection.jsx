@@ -5,7 +5,7 @@ import Heading from "./Heading";
 
 const AboutMeSection = ({sectionId}) => {
     return (
-        <section className="my-container mx-auto mb-28" id='aboutSection'>
+        <section className="my-container mx-auto mb-28" id='about'>
             <Heading name={'Who Am I?'}/>
             <div className="flex flex-col md:flex-row">
             <motion.div initial={{x:-150,opacity:0}} whileInView={{x:0,opacity:1}} transition={{type:"tween",duration:1}} className="basis-1/2 mb-8 md:mb-0">

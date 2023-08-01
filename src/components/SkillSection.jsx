@@ -13,7 +13,7 @@ const SkillSection = ({sectionId}) => {
     },[])
   
     return (
-        <section className="my-container mx-auto mb-28" id="skillSection">
+        <section className="my-container mx-auto mb-28" id="skills">
             <Heading name={'Skills'}/>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  justify-between gap-8'>
                 {

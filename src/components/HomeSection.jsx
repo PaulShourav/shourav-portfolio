@@ -15,7 +15,7 @@ import { motion } from "framer-motion"
 
 const HomeSection = ({ sectionId }) => {
   return (
-    <section className=' my-container mx-auto mb-24' id='homeSection'>
+    <section className=' my-container mx-auto mb-24' id='home'>
       <div className='flex  flex-col-reverse lg:flex-row   min-h-screen  '>
         <motion.div initial={{ x: -150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ type: "tween", duration: 1 }} className='basis-full md:basis-1/2 self-center text-center md:text-left'>
           <p className='text-4xl md:text-5xl font-bold'>Hi, <span className='text-3xl'>👋</span> <br />I'm  

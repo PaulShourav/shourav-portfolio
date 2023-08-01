@@ -6,6 +6,7 @@ import HomeSection from './components/HomeSection';
 import EducationSection from './components/EducationSection';
 import { useState } from 'react';
 import { animateScroll as scroll } from 'react-scroll';
+import Sidebar from './components/Sidebar';
 
 function App({ to }) {
   const [showScroll, setShowScroll] = useState(false);
@@ -27,7 +28,7 @@ function App({ to }) {
   window.addEventListener('scroll', checkScrollTop);
   return (
     <div className='relative'>
-     
+     <Sidebar/>
       {/* <LeftSideBar/> */}
       {/* <div className='bg-blue-900 blur-3xl w-36 h-36  fixed right-16 top-1/2 '></div>
       <div className='bg-pink-600 blur-3xl w-36 h-36  fixed left-16 top-1/2 '></div> */}
